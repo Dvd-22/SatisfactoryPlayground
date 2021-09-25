@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins);
 
 body {
-	background-color: rgb(148, 207, 255);
+	background: linear-gradient(to top, rgb(108, 233, 255), rgb(178, 243, 255));
 }
 .parent {
 	display: flex;
@@ -23,11 +23,6 @@ body {
 
 .box:hover {
 	transform: translate(4px, -4px);
-	box-shadow: -8px 8px 0 black;
+	box-shadow: -4px 4px 0 black;
 	background-color: #e4e3e3;
-}
-
-#two {
-	left: 60px;
-	top: 0em;
 }
