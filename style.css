@@ -26,3 +26,8 @@ body {
 	box-shadow: -4px 4px 0 black;
 	background-color: #e4e3e3;
 }
+.box:active {
+	transform: translate(2px, -2px);
+	box-shadow: -2px 2px 0 black;
+	background-color: #969696;
+}
